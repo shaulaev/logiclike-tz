@@ -1,0 +1,28 @@
+.tags, .tag {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 18px;
+
+    padding: 12px;
+}
+
+.tags {
+    width: 264px;
+    min-width: 264px;
+    height: fit-content;
+
+    border: 1px solid #CFCFE4;
+    border-radius: 18px;
+}
+
+.tag {
+    cursor: pointer;
+
+    border-radius: 12px;
+}
+
+.tag.active {
+    color: #fff;
+
+    background-color: #5FBF77;
+}
